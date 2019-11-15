@@ -116,7 +116,6 @@ Ces gabarits seront à recharter.e
 
 ## TODO 
 
-Mettre des petites fleurs dans le design system
-A quoi servent les interfaces (fr.cg44.plugin.socle.interfaces) ?
+Mettre des têtes de mort
 
 
