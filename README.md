@@ -108,8 +108,8 @@ Pour passer des variables à un tag depuis un gabarit par exemple, la bibliothè
 
 Le module contient les gabarits d'affichage des différents types de contenus / portlets.
 
-# Gabarits embed
-
+# Gabarits embed toto
+ 3
 Des exemples de gabarits "embed" ont été faits pour les articles de rubrique, les documents, et les vidéos chapitrées. C'est juste pour illustrer la notion d'insertion unifiée.
 
 Ces gabarits seront à recharter.e
