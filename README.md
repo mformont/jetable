@@ -1,4 +1,4 @@
-# jPlatformSocle
+# jPlatformSocle pour la version 10.0.3
 
 <p>
   <a href="https://travis-ci.org/organizations/departement-loire-atlantique">
@@ -10,8 +10,6 @@
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=code_smells" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=coverage" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=duplicated_lines_density" />
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=sqale_rating" />
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=alert_status" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=reliability_rating" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=security_rating" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=sqale_index" />
@@ -19,7 +17,7 @@
     </a>
 </p>
 
-Ce module regroupe tous les types de contenu « socle éditorial » pour les sites JCMS du Département ainsi que les gabarits d'affichage associés.
+Ce module regroupe tous les types de contenu « socle éditorial » pour les sites Jplatform du Département loire Atlantique ainsi que les gabarits d'affichage associés.
 
 Socle des contenus éditorial :
 
@@ -27,14 +25,16 @@ Socle des contenus éditorial :
 -	Article de rubrique (CollectivityArticle)
 -	Article géolocalisé (ArticleGeolocalie)
 -	Fiche lieux (Place)
-- Fiche aide (Help)
+- 	Fiche aide (Help)
 -	Actualité (News)
 -	Dossier d'actualités (Directory)
 -	Carousel (Carousel)
+- 	Elément Tuile
 -	Élément carrousel (CarouselElement)
 -	Alerte (AlertCG)
 -	Résultat de recherche (ResultatDeRecherche)
 -	Chapitre de vidéo YouTube (Chapitre)
+- 	vidéo YouTube
 
 Un nouveau type de contenu "**VideoChapitree**" a été créée pour faciliter la saisie et fonctionner avec l'insertion unifiée.
 
@@ -48,7 +48,7 @@ Socle des contenus représentant le découpage territorial (synchronisés entre 
 -	Commune hors département (CommuneHorsDepartement)
 -	Élu (ElectedMember)
 
-# Personnalisation de l'éditeur wysiwyg et des styles wysiwyg
+# Personnalisation de l'éditeur Wysiwyg et des styles Wysiwyg
 
 Fichiers :
 + configuration-charteconfig.conf
@@ -67,10 +67,9 @@ Ex : je sélectionne mon texte puis je choisi "**En-tête 2**" dans la liste des
 
 Pour le rendu graphique en mode édition, la css du design system a été chargée.
 
-Choix des boutons et fonctionalités : désactivation de H1 seulement.
 
 
-**TODO** : revoir le style de l'encadré pour suivre les recon (div + classe css) >> Script si on change le code pour les encadrés (simple DIV)
+Revoir le style de l'encadré pour suivre les recon (div + classe css) >> Script si on change le code pour les encadrés (simple DIV)
 
 + Style utiles ?
 + Reprise des styles ?
@@ -109,13 +108,15 @@ Pour passer des variables à un tag depuis un gabarit par exemple, la bibliothè
 
 Le module contient les gabarits d'affichage des différents types de contenus / portlets.
 
-# Gabarits embed
-
+# Gabarits embed toto
+ 3
 Des exemples de gabarits "embed" ont été faits pour les articles de rubrique, les documents, et les vidéos chapitrées. C'est juste pour illustrer la notion d'insertion unifiée.
 
 Ces gabarits seront à recharter.e
 
 ## TODO 
+
 Mettre des petites fleurs dans le design system
 A quoi servent les interfaces (fr.cg44.plugin.socle.interfaces) ?
+
 
