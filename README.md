@@ -10,8 +10,6 @@
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=code_smells" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=coverage" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=duplicated_lines_density" />
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=sqale_rating" />
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=alert_status" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=reliability_rating" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=security_rating" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=sqale_index" />
@@ -19,7 +17,7 @@
     </a>
 </p>
 
-Ce module regroupe tous les types de contenu « socle éditorial » pour les sites JCMS du Département ainsi que les gabarits d'affichage associés.
+Ce module regroupe tous les types de contenu « socle éditorial » pour les sites Jplatform du Département loire Atlantique ainsi que les gabarits d'affichage associés.
 
 Socle des contenus éditorial :
 
@@ -27,10 +25,11 @@ Socle des contenus éditorial :
 -	Article de rubrique (CollectivityArticle)
 -	Article géolocalisé (ArticleGeolocalie)
 -	Fiche lieux (Place)
-- Fiche aide (Help)
+- 	Fiche aide (Help)
 -	Actualité (News)
 -	Dossier d'actualités (Directory)
 -	Carousel (Carousel)
+- 	Elément Tuile
 -	Élément carrousel (CarouselElement)
 -	Alerte (AlertCG)
 -	Résultat de recherche (ResultatDeRecherche)
@@ -48,7 +47,7 @@ Socle des contenus représentant le découpage territorial (synchronisés entre 
 -	Commune hors département (CommuneHorsDepartement)
 -	Élu (ElectedMember)
 
-# Personnalisation de l'éditeur wysiwyg et des styles wysiwyg
+# Personnalisation de l'éditeur Wysiwyg et des styles Wysiwyg
 
 Fichiers :
 + configuration-charteconfig.conf
