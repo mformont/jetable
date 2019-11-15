@@ -116,6 +116,6 @@ Des exemples de gabarits "embed" ont été faits pour les articles de rubrique, 
 Ces gabarits seront à recharter.e
 
 ## TODO 
-
+Mettre des petites fleurs dans le design system
 A quoi servent les interfaces (fr.cg44.plugin.socle.interfaces) ?
 
