@@ -115,5 +115,7 @@ Des exemples de gabarits "embed" ont été faits pour les articles de rubrique, 
 Ces gabarits seront à recharter.e
 
 ## TODO 
-Mettre des grosses têtes de mort super effrayantes !!!
+
+Mettre des têtes de mort
+
 
