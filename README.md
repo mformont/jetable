@@ -1,4 +1,4 @@
-# jPlatformSocle
+# jPlatformSocle pour la version 10.0.3
 
 <p>
   <a href="https://travis-ci.org/organizations/departement-loire-atlantique">
@@ -34,6 +34,7 @@ Socle des contenus éditorial :
 -	Alerte (AlertCG)
 -	Résultat de recherche (ResultatDeRecherche)
 -	Chapitre de vidéo YouTube (Chapitre)
+- 	vidéo YouTube
 
 Un nouveau type de contenu "**VideoChapitree**" a été créée pour faciliter la saisie et fonctionner avec l'insertion unifiée.
 
@@ -66,10 +67,9 @@ Ex : je sélectionne mon texte puis je choisi "**En-tête 2**" dans la liste des
 
 Pour le rendu graphique en mode édition, la css du design system a été chargée.
 
-Choix des boutons et fonctionalités : désactivation de H1 seulement.
 
 
-**TODO** : revoir le style de l'encadré pour suivre les recon (div + classe css) >> Script si on change le code pour les encadrés (simple DIV)
+Revoir le style de l'encadré pour suivre les recon (div + classe css) >> Script si on change le code pour les encadrés (simple DIV)
 
 + Style utiles ?
 + Reprise des styles ?
